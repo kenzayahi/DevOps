@@ -14,6 +14,7 @@
         <option value="JavaFXApplication" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,9 +30,20 @@
   </component>
   <component name="ProjectId" id="1SyNQo5SwXFf8iwdFqPXEiVba3U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="fr.upem.master2.devops.apprentis.devopsupemws" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -46,23 +58,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="DevopsUpemWsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.DevopsUpemWsApplication" />
+  <component name="RunManager" selected="JUnit.PersonneRessourceTest.getOne">
+    <configuration name="PersonneRessourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="devops-upem-ws" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.*" />
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.deletePersonne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="deletePersonne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.getOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="getOne" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonneRessourceTest.postPersonne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devops-upem-ws" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource" />
+      <option name="MAIN_CLASS_NAME" value="fr.upem.master2.devops.apprentis.devopsupemws.ressource.PersonneRessourceTest" />
+      <option name="METHOD_NAME" value="postPersonne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DevopsUpemWsApplication" />
+        <item itemvalue="JUnit.PersonneRessourceTest.getOne" />
+        <item itemvalue="JUnit.PersonneRessourceTest.deletePersonne" />
+        <item itemvalue="JUnit.PersonneRessourceTest" />
+        <item itemvalue="JUnit.PersonneRessourceTest.postPersonne" />
+        <item itemvalue="JUnit.PersonneRessourceTest.getAll" />
       </list>
     </recent_temporary>
   </component>
@@ -84,7 +166,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

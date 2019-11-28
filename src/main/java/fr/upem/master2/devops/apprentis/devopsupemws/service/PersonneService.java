@@ -5,7 +5,7 @@ import fr.upem.master2.devops.apprentis.devopsupemws.repository.PersonneReposito
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PersonneService {
@@ -13,23 +13,28 @@ public class PersonneService {
     private PersonneRepository personneRepository;
 
     public Iterable<Personne>getAll(){
-        return personneRepository.getAll();
+        return personneRepository.findAll();
     }
 
     public Personne createPersonne(Personne personne){
+
         return personneRepository.save(personne);
     }
 
 
-    public Personne getOne(Long id) {
-        return personneRepository.getOne(id);
+    public Optional<Personne> getOne(Long id) {
+
+        return personneRepository.findById(id);
     }
 
     public void deletePersonne(Long id) {
-        personneRepository.delete(id);
+
+        personneRepository.deleteById(id);
     }
 
     public Personne updatePersonne(Long id, Personne personne) {
-        return personneRepository.update(id,personne);
+        personneRepository.findById(id);
+        personne.setId(id);
+        return personneRepository.save(personne);
     }
 }

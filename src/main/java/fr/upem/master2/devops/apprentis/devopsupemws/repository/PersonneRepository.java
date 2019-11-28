@@ -1,14 +1,17 @@
 package fr.upem.master2.devops.apprentis.devopsupemws.repository;
 
 import fr.upem.master2.devops.apprentis.devopsupemws.model.Personne;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 
 @Repository
-public class PersonneRepository {
-    Map<Long,Personne>personneMap=new HashMap<>();
+public interface PersonneRepository extends CrudRepository<Personne,Long> {
+
+
+    /*Map<Long,Personne>personneMap=new HashMap<>();
     private Long ids=0L;
 
     public Iterable<Personne>getAll(){
@@ -38,5 +41,5 @@ public class PersonneRepository {
         return personne;
 
 
-    }
+    }*/
 }

@@ -5,6 +5,8 @@ import fr.upem.master2.devops.apprentis.devopsupemws.service.PersonneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
+
 @RestController
 public class PersonneRessource {
     @Autowired
@@ -21,7 +23,7 @@ public class PersonneRessource {
     }
 
     @GetMapping("personnes/{id}")
-    public Personne getOne(@PathVariable Long id) {
+    public Optional<Personne> getOne(@PathVariable Long id) {
         //@PathVariable {id}
         return personneService.getOne(id);
     }
