@@ -7,5 +7,20 @@ pipeline {
             }
         }
     }
+    stages {
+        stage ('shutdown current app') {
+            steps {
+                script{
+                    try{
+                        sh"curl -X POST http://localhost:8080/actuator/shutdown"
+                    }catch(Exception e){
+                        //nothing
+                    }
+                }
+
+            }
+
+        }
+    }
 
 }
