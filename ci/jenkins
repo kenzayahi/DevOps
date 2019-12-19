@@ -6,8 +6,6 @@ pipeline {
                 sh'mvn clean package'
             }
         }
-    }
-    stages {
         stage ('shutdown current app') {
             steps {
                 script{
@@ -22,5 +20,4 @@ pipeline {
 
         }
     }
-
 }
